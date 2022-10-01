@@ -25,7 +25,7 @@ public class CrmController {
 	public String listCrm(Model theModel) {
 
 		System.out.println("request received");
-		// get student list from db
+		// get crm list from db
 		List<Crm> theCrm = crmService.findAll();
 
 		// add to the spring model
